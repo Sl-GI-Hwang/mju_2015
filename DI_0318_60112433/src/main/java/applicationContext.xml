@@ -16,7 +16,7 @@
 
 <bean id="student" class = "Student">
 	<constructor-arg index="0">
-		<value>황슬기</value>
+		<value>원호명</value>
 	</constructor-arg>
 </bean>
 
