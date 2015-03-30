@@ -10,7 +10,7 @@
 
 <bean id="Lecture2" class = "Lecture">
 	<constructor-arg>
-		<value>C언어</value>
+		<value>소프트웨어 공학</value>
 	</constructor-arg>
 </bean>
 
