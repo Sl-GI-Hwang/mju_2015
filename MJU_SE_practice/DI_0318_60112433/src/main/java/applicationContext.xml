@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id = "professor" class = "Professor">
+	<constructor-arg>
+		<value>최성운</value>
+	</constructor-arg>
+</bean>
+
+<bean id="Lecture2" class = "Lecture">
+	<constructor-arg>
+		<value>소프트웨어 공학</value>
+	</constructor-arg>
+</bean>
+
+<bean id="student" class = "Student">
+	<constructor-arg index="0">
+		<value>원호명</value>
+	</constructor-arg>
+</bean>
+
+<bean id="student2" class="Student">
+	<property name="name">
+		<value>이상진</value>
+	</property>
+</bean>
+
+</beans>
+
