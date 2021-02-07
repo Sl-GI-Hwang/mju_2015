@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+/* CSS Document */
+* {margin: 0; padding: 0; list-style: none }
+img {border: none;}
+
+html,body,p,h1,h2,h3,h4,h5,h6,menu,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select,hr{margin:0;padding:0;}
+body{background-color:#fff; font-size:0.75em; font-family:'돋움',Dotum,AppleGothic,sans-serif;}
+input,textarea,select,button,table{font-size:1em;}
+img,fieldset{border:0}
+img, input, select {vertical-align:middle;}
+ul,ol{list-style:none}
+em,address,i {font-style:normal}
+a{text-decoration:none; vertical-align:middle; }
+a:hover,a:active,a:focus{text-decoration:underline;}
+button{display:inline-block;overflow:hidden;border:0;background:none;cursor:pointer}
+table{border-collapse:collapse;border-spacing:0; width:100%}
+.hide {position:absolute; overflow:hidden; top:-9999px; left:-9999px; width:0; height:1px; font-size:0; line-height:0; text-indent:-10000px;}
+caption {visibility:hidden;overflow:hidden;top:0;left:0;width:0;height:0;font-size:0;line-height:0;}
+textarea {resize:none; vertical-align:middle;}
+
+ul.ul_course{}
+ul.ul_course li.li_course{display:inline-block; width:500px;}
+ul.ul_course li.li_course span.span_courseName{}
+ul.ul_course li.li_course a.btn_registForCourse{width:50px; color: #123;}
